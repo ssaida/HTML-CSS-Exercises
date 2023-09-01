@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.uber{
+  display: inline-block;
+  min-width: 100px;
+  background-color: #fff;
+  padding: 10px;
+  margin: 4px;
+}
+.uber button{
+  padding: 8px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+}
+.amazon{
+  display: inline-block;
+  min-width: 100px;
+  background-color: #fff;
+  padding: 10px;
+  margin: 4px;
+}
+.amazon button{
+  background-color: rgb(255, 216, 20);
+  border: none;
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 24px;
+}
+.github{
+  display: inline-block;
+  min-width: 100px;
+  background-color: #fff;
+  padding: 10px;
+  margin: 4px;
+}
+.github button{
+  background-color: rgb(26, 164, 79);
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.bootstrap{
+  display: inline-block;
+  min-width: 200px;
+  background-color: #fff;
+  padding: 10px;
+  margin: 4px;
+}
+.bootstrap .get{
+  background-color: rgb(121, 82, 179);
+  border: none;
+  padding: 8px 20px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.bootstrap .download{
+  background-color: rgb(108, 117, 125);
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.linkedin{
+  display: inline-block;
+  min-width: 200px;
+  background-color: #fff;
+  padding: 10px;
+  margin: 4px;
+}
+.linkedin .apply{
+  background-color: rgb(10, 102, 194);
+  border: none;
+  padding: 8px 20px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 24px;
+}
+.linkedin .save{
+  background-color: #fff;
+  color:  rgb(10, 102, 194);;
+  border-radius: 24px;
+  padding: 8px 20px;
+  border: 1px solid  rgb(10, 102, 194);;
+}
+.challenge-exercise{
+  background-color: #fff;
+  min-width: 400px;
+  margin: 10px auto;
+  display: inline-block;
+  padding: 20px;
+}
+.challenge-exercise *{
+  margin-bottom: 8px;
+}
+.challenge-exercise a{
+  color: rgb(0, 113, 133);
+}
+.challenge-exercise span{
+  color: rgb(0, 118, 0);
+}
+.challenge-exercise .add-to-cart{
+  background-color: rgb(255, 216, 20);
+  padding: 8px 20px;
+  border: none;
+  border-radius: 24px;
+  font-size: 16px;
+}
+.challenge-exercise .buy-now{
+  background-color: rgb(255, 164, 28);
+  padding: 8px 20px;
+  border: none;
+  border-radius: 24px;
+  font-size: 16px;
+}
