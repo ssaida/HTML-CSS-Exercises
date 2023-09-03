@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.a8{
+  background-color: #fff;
+  width: 300px;
+  padding: 4px;
+}
+.a8 input{
+  display: block;
+  padding: 4px 10px;
+  /* margin: 4px; */
+}
+.b8{
+  background-color: #fff;
+  width: 400px;
+  padding: 4px;
+  margin-top: 10px;
+}
+.b8 p{
+  display: inline-block;
+  width: 300px;
+  vertical-align: middle;
+}
+.b8 button{
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 4px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.c8{
+  width: 100%;
+  background-color: #fff;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+}
+.c8 img{
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+}
+.c8 input{
+  display: inline-block;
+  border: none;
+  padding: 12px 20px;
+  width: 700px;
+  font-size: 16px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 24px;
+}
+.d8{
+  background-color: #fff;
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+}
+.d8 .first, 
+.d8 .second{
+  display: inline-block;
+  width: 47%;
+  margin: 2px;
+  padding: 2px 4px;
+}
+input[type="email"]{
+  display: block;
+  width: 97%;
+  margin: 2px;
+  padding: 2px 4px;
+}
+.d8 button{
+  background-color: blue;
+  width: 97%;
+  border-radius: 4px;
+  border: none;
+  padding: 4px 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 2px;
+}
+.uber{
+  background-color: #fff;
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+  text-align: center;
+}
+.uber .pick, 
+.uber .dest{
+  display: block;
+  width: 100%;
+  margin: 2px;
+}
+.uber .request {
+  background-color: #000;
+  color: #fff;
+  padding: 8px 20px;
+  margin: 2px;
+  border: none;
+  font-weight: bold;
+}
+.uber .later{
+  background-color: gray;
+  color: #000;
+  padding: 8px 20px;
+  margin: 2px;
+  border: none;
+  font-weight: bold;
+}
