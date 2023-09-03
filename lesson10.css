@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.a10{
+  background-color: #fff;
+  width: 400px;
+  padding: 8px;
+}
+.a10 .picture{
+  display: inline-block;
+  vertical-align: middle;
+}
+.a10 img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.a10 .info{
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+}
+.a10 .follow{
+  display: inline-block;
+}
+.a10 .follow button{
+  background-color: blue;
+  border: none;
+  padding: 8px 20px;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.c10{
+  padding: 8px;
+  background-color: #fff;
+  width: 500px;
+}
+.c10 .picture{
+  display: inline-block;
+  width: 200px;
+}
+.c10 .picture img{
+  width: 100%;
+}
+.c10 .info{
+  display: inline-block;
+  width: 270px;
+  vertical-align: top;
+}
+.c10 .info h3{
+  margin-bottom: 20px;
+}
+.d10{
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #fff;
+  width: 200px;
+}
+.d10 .picture{
+  width: 100%;
+  padding: 2px;
+}
+.d10 .picture img{
+  width: 100%;
+}
+.d10 .stats img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.d10 .stats p{
+  display: inline-block;
+}
+.d10 .stats button{
+  background-color: blue;
+  border: none;
+  color: #fff;
+  padding: 8px 20px;
+  margin: 4px;
+  font-size: 16px;
+  border-radius: 4px;
+}
