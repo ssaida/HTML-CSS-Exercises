@@ -37,3 +37,86 @@ body{
   color: #fff;
   padding: 2px;
 }
+.challenge{
+  background-color: #fff;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+.challenge .all{
+  color: gray;
+}
+.challenge .row{
+  display: flex;
+  justify-content: space-between;
+}
+.challenge .row .image{
+  margin: 4px;
+}
+.challenge .row .image img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.challenge .row .info{
+  flex: 1;
+}
+.challenge .row .info .first-row{
+  display: flex;
+  justify-content: space-between;
+}
+.f13{
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #fff;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.f13 .up{
+  display: flex;
+}
+
+.f13 .up .left .image{
+  padding: 8px;
+}
+.f13 .up .left img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+}
+.f13 .up .right{
+  flex: 1;
+}
+.f13 .up .right h3{
+  display: inline-block;
+}
+.f13 .down{
+  display: flex;
+  width: 100%;
+}
+.f13 .down .left{
+  background-color: gray;
+  width: 100px;
+  height: 200px;
+  border-radius: 20px 0 0 20px;
+}
+.f13 .down .right{
+  border: 1px solid gray;
+  width: 200px;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0 20px 20px 0;
+}
+.f13 .down .right p{
+  font-size: 20px;
+}
+.f13 .down .right p.domain{
+  color: gray;
+}
