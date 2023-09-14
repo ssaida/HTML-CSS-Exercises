@@ -7,3 +7,33 @@ body{
   background-color: silver;
   font-family: sans-serif;
 }
+.a13{
+  background-color: #fff;
+  display: flex;
+  width: 400px;
+}
+.a13 .left{
+  background-color: pink;
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a13 .left p{
+  background-color: #000;
+  color: #fff;
+  padding: 4px 10px;
+}
+.a13 .right{
+  background-color: skyblue;
+  flex: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.a13 .right .row2{
+  background-color: #000;
+  color: #fff;
+  padding: 2px;
+}
