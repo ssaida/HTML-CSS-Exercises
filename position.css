@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: silver;
+    font-family: sans-serif;
+}
+.a14{
+    background-color: #fff;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+.a14 button{
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 20px;
+}
+.b14{
+    display: flex;
+    width: 400px;
+    background-color: #fff;
+    height: 200px;
+    margin-top: 10px;
+    position: relative;
+}
+.b14 .left{
+    background-color: grey;
+    width: 70%;
+}
+.b14 .right{
+    flex: 1;
+    background-color: green;
+    color: #fff;
+}
+.medal-box{
+    position: absolute;
+    background-color: #fff;
+    padding: 4px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.medal{
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px;
+    width: 200px;
+    text-align: justify;
+    border-radius: 4px;
+}
+.e14{
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+    min-height: 40px;
+}
+.e14 .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.e14 .row .left{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.e14 .row .left h3{
+    display: inline-block;
+}
+.e14 .row .left img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.e14 .right .add{
+    background-color: blue;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.e14 .right .msg{
+    background-color: rgb(201, 200, 200);
+    color: #000;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+}
