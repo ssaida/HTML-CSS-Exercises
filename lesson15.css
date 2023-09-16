@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: silver;
+    font-family: sans-serif;
+}
+.a15{
+    background-color: #fff;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin: 20px;
+}
+.a15 .x{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 50%;
+}
+.a15 .box{
+    width: 200px;
+    height: 100px;
+    background-color: gray;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.a15 .x-corner{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 50%;
+}
+.a15 .time{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    background-color: #000;
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    z-index: 1;
+}
+.challenge-e{
+    background-image: url("/images/thumbnail-1.webp");
+    min-height: 200px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.challenge-e .discount{
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    padding: 4px;
+    top: 10px;
+    right: 10px;
+}
+.add{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    background-color: #fff;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
