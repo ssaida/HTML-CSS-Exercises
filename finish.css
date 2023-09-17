@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: silver;
+    font-family: sans-serif;
+}
+.a16{
+    background-color: #fff;
+    width: 400px;
+    padding: 4px;
+}
+.a16 .row img{
+    width: 100%;
+}
+
+.a16 .info{
+    display: flex;
+    align-items: center;
+}
+.channel-info{
+    position: relative;
+}
+.channel-info:hover .window{
+    opacity: 1;
+}
+.channel-info .window{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 4px;
+    opacity: 0;
+}
+.window p{
+    white-space: nowrap;
+}
