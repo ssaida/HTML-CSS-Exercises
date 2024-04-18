@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+  height: 100vh;
+}
+.parent{
+  display: flex;
+  border: 1px solid #000;
+  height: 100vh;
+  align-items: stretch;
+  align-items: baseline;
+  justify-content: space-around;
+}
+.parent .child{
+  width: 100px;
+}
+.child:nth-child(1){
+  background-color: red;
+  height: 50vh;
+}
+.child:nth-child(2){
+  background-color: blue;
+  height: 30vh;
+}
+.child:nth-child(3){
+  background-color: gray;
+  height: 100vh;
+}
